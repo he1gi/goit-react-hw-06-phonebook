@@ -13,8 +13,8 @@ const contactsSlice = createSlice({
       prepare(contact) {
         return {
           payload: {
-            id: nanoid(5),
             ...contact,
+            id: nanoid(5),
           },
         };
       },

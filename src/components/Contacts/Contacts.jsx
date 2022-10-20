@@ -6,6 +6,7 @@ import { Btn, List, Item } from './Contacts.styled';
 
 export default function Contacts() {
   const contacts = useSelector(getContacts);
+  console.log(contacts);
 
   const filter = useSelector(getFilter);
 
